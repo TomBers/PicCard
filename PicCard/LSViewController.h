@@ -1,5 +1,5 @@
 //
-//  PCViewController.h
+//  LSViewController.h
 //  PicCard
 //
 //  Created by Tom Berman on 21/08/2013.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PCViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@interface LSViewController : UIViewController
 
 @end

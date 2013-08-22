@@ -18,6 +18,19 @@
 		0E36818917C55F810051B1FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E36818817C55F810051B1FE /* Default-568h@2x.png */; };
 		0E36818C17C55F810051B1FE /* PCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E36818B17C55F810051B1FE /* PCViewController.m */; };
 		0E36818F17C55F810051B1FE /* PCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E36818D17C55F810051B1FE /* PCViewController.xib */; };
+		0E36819817C5611C0051B1FE /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E36819617C5611C0051B1FE /* LSViewController.m */; };
+		0E36819917C5611C0051B1FE /* LSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E36819717C5611C0051B1FE /* LSViewController.xib */; };
+		0E36819C17C5619E0051B1FE /* pic-cardLS2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E36819B17C5619E0051B1FE /* pic-cardLS2.png */; };
+		0E3681A817C563860051B1FE /* AVCamCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3681A317C563860051B1FE /* AVCamCaptureManager.m */; };
+		0E3681A917C563860051B1FE /* AVCamRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3681A517C563860051B1FE /* AVCamRecorder.m */; };
+		0E3681AA17C563860051B1FE /* AVCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3681A717C563860051B1FE /* AVCamUtilities.m */; };
+		0E3681AC17C564150051B1FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681AB17C564150051B1FE /* AVFoundation.framework */; };
+		0E3681AE17C564260051B1FE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681AD17C564260051B1FE /* CoreVideo.framework */; };
+		0E3681B017C564320051B1FE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681AF17C564320051B1FE /* CoreMedia.framework */; };
+		0E3681B217C5645D0051B1FE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681B117C5645D0051B1FE /* ImageIO.framework */; };
+		0E3681B417C564720051B1FE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681B317C564720051B1FE /* MediaPlayer.framework */; };
+		0E3681B617C5E2DC0051B1FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681B517C5E2DC0051B1FE /* CoreData.framework */; };
+		0E3681B817C5E3510051B1FE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3681B717C5E3510051B1FE /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,23 @@
 		0E36818A17C55F810051B1FE /* PCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCViewController.h; sourceTree = "<group>"; };
 		0E36818B17C55F810051B1FE /* PCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCViewController.m; sourceTree = "<group>"; };
 		0E36818E17C55F810051B1FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PCViewController.xib; sourceTree = "<group>"; };
+		0E36819517C5611C0051B1FE /* LSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
+		0E36819617C5611C0051B1FE /* LSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
+		0E36819717C5611C0051B1FE /* LSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSViewController.xib; sourceTree = "<group>"; };
+		0E36819B17C5619E0051B1FE /* pic-cardLS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic-cardLS2.png"; sourceTree = "<group>"; };
+		0E3681A217C563860051B1FE /* AVCamCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCaptureManager.h; sourceTree = "<group>"; };
+		0E3681A317C563860051B1FE /* AVCamCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCaptureManager.m; sourceTree = "<group>"; };
+		0E3681A417C563860051B1FE /* AVCamRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamRecorder.h; sourceTree = "<group>"; };
+		0E3681A517C563860051B1FE /* AVCamRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamRecorder.m; sourceTree = "<group>"; };
+		0E3681A617C563860051B1FE /* AVCamUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamUtilities.h; sourceTree = "<group>"; };
+		0E3681A717C563860051B1FE /* AVCamUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamUtilities.m; sourceTree = "<group>"; };
+		0E3681AB17C564150051B1FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E3681AD17C564260051B1FE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0E3681AF17C564320051B1FE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0E3681B117C5645D0051B1FE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0E3681B317C564720051B1FE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0E3681B517C5E2DC0051B1FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E3681B717C5E3510051B1FE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3681B817C5E3510051B1FE /* AssetsLibrary.framework in Frameworks */,
+				0E3681B617C5E2DC0051B1FE /* CoreData.framework in Frameworks */,
 				0E36817317C55F810051B1FE /* UIKit.framework in Frameworks */,
+				0E3681B417C564720051B1FE /* MediaPlayer.framework in Frameworks */,
+				0E3681B217C5645D0051B1FE /* ImageIO.framework in Frameworks */,
+				0E3681B017C564320051B1FE /* CoreMedia.framework in Frameworks */,
+				0E3681AE17C564260051B1FE /* CoreVideo.framework in Frameworks */,
+				0E3681AC17C564150051B1FE /* AVFoundation.framework in Frameworks */,
 				0E36817517C55F810051B1FE /* Foundation.framework in Frameworks */,
 				0E36817717C55F810051B1FE /* CoreGraphics.framework in Frameworks */,
 			);
@@ -56,6 +93,13 @@
 		0E36816617C55F800051B1FE = {
 			isa = PBXGroup;
 			children = (
+				0E3681B717C5E3510051B1FE /* AssetsLibrary.framework */,
+				0E3681B517C5E2DC0051B1FE /* CoreData.framework */,
+				0E3681B317C564720051B1FE /* MediaPlayer.framework */,
+				0E3681B117C5645D0051B1FE /* ImageIO.framework */,
+				0E3681AF17C564320051B1FE /* CoreMedia.framework */,
+				0E3681AD17C564260051B1FE /* CoreVideo.framework */,
+				0E3681AB17C564150051B1FE /* AVFoundation.framework */,
 				0E36817817C55F810051B1FE /* PicCard */,
 				0E36817117C55F810051B1FE /* Frameworks */,
 				0E36817017C55F810051B1FE /* Products */,
@@ -83,11 +127,15 @@
 		0E36817817C55F810051B1FE /* PicCard */ = {
 			isa = PBXGroup;
 			children = (
+				0E36819E17C562330051B1FE /* AVUtils */,
+				0E36819D17C561A60051B1FE /* Images */,
+				0E36819A17C5613A0051B1FE /* Interfaces */,
 				0E36818117C55F810051B1FE /* PCAppDelegate.h */,
+				0E36819517C5611C0051B1FE /* LSViewController.h */,
+				0E36819617C5611C0051B1FE /* LSViewController.m */,
 				0E36818217C55F810051B1FE /* PCAppDelegate.m */,
 				0E36818A17C55F810051B1FE /* PCViewController.h */,
 				0E36818B17C55F810051B1FE /* PCViewController.m */,
-				0E36818D17C55F810051B1FE /* PCViewController.xib */,
 				0E36817917C55F810051B1FE /* Supporting Files */,
 			);
 			path = PicCard;
@@ -105,6 +153,36 @@
 				0E36818817C55F810051B1FE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E36819A17C5613A0051B1FE /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0E36818D17C55F810051B1FE /* PCViewController.xib */,
+				0E36819717C5611C0051B1FE /* LSViewController.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		0E36819D17C561A60051B1FE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E36819B17C5619E0051B1FE /* pic-cardLS2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0E36819E17C562330051B1FE /* AVUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0E3681A217C563860051B1FE /* AVCamCaptureManager.h */,
+				0E3681A317C563860051B1FE /* AVCamCaptureManager.m */,
+				0E3681A417C563860051B1FE /* AVCamRecorder.h */,
+				0E3681A517C563860051B1FE /* AVCamRecorder.m */,
+				0E3681A617C563860051B1FE /* AVCamUtilities.h */,
+				0E3681A717C563860051B1FE /* AVCamUtilities.m */,
+			);
+			name = AVUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +242,8 @@
 				0E36818717C55F810051B1FE /* Default@2x.png in Resources */,
 				0E36818917C55F810051B1FE /* Default-568h@2x.png in Resources */,
 				0E36818F17C55F810051B1FE /* PCViewController.xib in Resources */,
+				0E36819917C5611C0051B1FE /* LSViewController.xib in Resources */,
+				0E36819C17C5619E0051B1FE /* pic-cardLS2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +257,10 @@
 				0E36817F17C55F810051B1FE /* main.m in Sources */,
 				0E36818317C55F810051B1FE /* PCAppDelegate.m in Sources */,
 				0E36818C17C55F810051B1FE /* PCViewController.m in Sources */,
+				0E36819817C5611C0051B1FE /* LSViewController.m in Sources */,
+				0E3681A817C563860051B1FE /* AVCamCaptureManager.m in Sources */,
+				0E3681A917C563860051B1FE /* AVCamRecorder.m in Sources */,
+				0E3681AA17C563860051B1FE /* AVCamUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
